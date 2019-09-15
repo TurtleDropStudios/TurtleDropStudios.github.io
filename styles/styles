@@ -1,0 +1,342 @@
+@charset "utf-8";
+
+body{
+	background-color: #212121;
+	overflow-x: hidden;
+}
+.page-title{
+	background-color: #212121;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+.title-styles{
+	color: white;
+}
+.option-header{
+	color: #FF63B7;
+	padding-left: 15px;
+}
+.option-header-center{
+	color: #FF63B7;
+	padding-left: 15px;
+	text-align: center;
+}
+.section-container-1{
+	background-color: #303030;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+.section-container-2{
+	background-color: #424242;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.county-borders {
+	fill:none;
+	stroke: white;
+	stroke-width: 0.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	pointer-events: none;
+}
+
+.option { 
+	width: 1800px; 
+	length: 800px; 	
+	display: inline;
+	padding-left: 15px;
+	
+}
+.option-container{
+	margin-bottom: 15px;
+}
+
+
+/* BUTTONS */
+.buttons {
+  background-color: #303030;
+	border-width: thick;
+	border-style: solid;
+	border-color: deeppink;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttons:hover{
+	background-color: #424242;
+	border-style: solid;
+	border-color: #7C147F;
+}
+.buttons:focus{
+	background-color: #424242;
+	border-color: #7C147F;
+}
+/* END OF BUTTONS*/
+
+/* Tooltip CSS */
+.d3-tip {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family:"avenir next", Arial, sans-serif;
+	padding: 6px;
+	background: rgba(0, 0, 0, 0.8);
+	color: deeppink;
+	border-radius: 1px;
+	pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 8px;
+	width: 100%;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+	content: "\25BC";
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+	text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+	content: "\25C0";
+	margin: -4px 0 0 0;
+	top: 50%;
+	left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+	content: "\25B2";
+	margin: 0 0 1px 0;
+	top: -8px;
+	left: 0;
+	text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+	content: "\25B6";
+	margin: -4px 0 0 -1px;
+	top: 50%;
+	left: 100%;
+}
+
+.details{
+	color:white;
+}
+
+.line {
+	fill: none;
+	stroke: #EF5285;
+	stroke-width: 2px;
+}
+
+.bar { 
+	fill: papayawhip; 
+}
+
+
+/* pie */
+
+#floridacrime {
+	position: relative; /* To allow the tooltip to be positioned relative to the div */
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.tooltip {
+	position: absolute;
+	width: 80px;
+	padding: 10px;
+	background: #eee;
+	color: #333;
+	display: none;
+	font-size: 12px;
+	text-align: center;
+	box-shadow: 0 0 5px #999;
+	z-index: 10;
+}
+
+rect {
+	cursor: pointer;
+	stroke-width: 2;
+}
+
+rect.disabled {
+	fill: transparent !important;
+}
+
+legend {
+	font-size: 18px;
+}
+
+rect {
+	stroke-width: 2;
+}
+
+.header-wrapper{
+	text-align: left;
+	color: white;
+	padding-left: 15px;
+}
+
+/* NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	color: white;
+}
+
+li {
+  float: left;
+	color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #424242;
+	color: white;
+}
+
+.active {
+  background-color: #FF63B7;
+	color: white;
+}
+/* END NAV BAR */
+
+/* Form */
+.form-container{
+	margin-top: 40px;
+}
+.form-element{
+	margin-bottom: 5px;
+}
+.form-label{
+	color: white;
+}
+.legend-element{
+	color: deeppink;
+	margin-top: 15px;
+}
+.buttons-form {
+  	background-color: #000000;
+	border-width: thick;
+	border-style: solid;
+	border-color: deeppink;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	margin-top: 35px;
+}
+.buttons-form:hover{
+	background-color: #424242;
+	border-style: solid;
+	border-color: #7C147F;
+}
+input[type=text], input[type=email], input[type=date], select {
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 800px;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* End Form */
+
+.chart-text{
+	color: white;
+}
+#floridainternet text {
+    fill: white;
+}
+.author-header{
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+}
+.author-stat{
+	color: #FF63B7;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.author-spacing{
+	background-color: #424242;
+	padding: 15px;
+	margin: 10px;
+}
+/* Div Sroll Button Styling */
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
