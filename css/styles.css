@@ -308,7 +308,8 @@ input[type=submit]:hover{
 /*/////////////////////////////////////////////////
 About Page
 /////////////////////////////////////////////////*/
-/* campus image container */
+
+/* image container */
 .image-container{
 	position: relative;
 	text-align: center;
@@ -378,9 +379,6 @@ About Page
   	margin-right: auto;
 }
 
-/*/////////////////////////////////////////////////
-Shirts, Hoodies, Accessories Pages
-/////////////////////////////////////////////////*/
 .divide{
     border-top: 3px dashed #249E31;
 }
@@ -551,9 +549,24 @@ label.color{
 .carousel-control-next {
     width: 50px;
 }
-/* Hides Other Carousel on mobile */
-@media only screen and (max-width: 575px) {
-    .oCarousel {
-        display: none;
-    }
+/* team member css */
+.teammates td{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	background-color: #727171;
+}
+.teammates th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+	background-color: #606060;
+}
+.teammates tr {
+	background-color: #2B2B2B;
+}
+
+.team-table{
+	padding: 20px;
+	display: block;
 }
