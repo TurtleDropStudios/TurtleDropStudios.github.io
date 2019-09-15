@@ -149,7 +149,7 @@ a:hover{
     transition: 0.3s;
 }
 .overlay a:hover, .overlay a:focus {
-    color: #D91D27;
+    color: #000;
 }
 .overlay .closebtn {
     position: absolute;
@@ -317,6 +317,7 @@ About Page
     object-fit: scale-down;
     width: 80%;
     height: 80%;
+	opacity: 0.5;
 }
 /* text inside image container */
 .overlay-text{
