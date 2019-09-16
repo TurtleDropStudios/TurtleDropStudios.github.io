@@ -286,15 +286,15 @@ input[type=email], select, textarea{
     resize: vertical;
 }
 input[type=submit]{
-    background-color: #219AA5;
-    color: #fff;
+    background-color: #D17B0F;
+    color: #000;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 input[type=submit]:hover{
-    background-color: #45a049;
+    background-color: #E8D33F;
 }
 .form-container{
     border-radius: 5px;

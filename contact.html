@@ -56,7 +56,10 @@
 
     <!-- Form -->
     <div class="form-container">
-      <form action="https://formspree.io/zeeroeh@gmail.com" method="POST">
+      <form action="https://formspree.io/turtledropstudios@gmail.com" method="POST">
+		<label for="company">Company</label>
+		<input type="text" id="company" name="company" placeholder="Please enter your company name here">
+		  
         <label for="firstname">First Name</label>
         <input type="text" id="firstname" name="firstname" placeholder="Enter your first name here">
         
@@ -66,11 +69,16 @@
         <label for="emailaddress">Email</label>
         <input type="email" id="emailaddress" name="emailaddress" placeholder="Enter your email address here">
         
+		<label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Please enter your phone number here">
+		  
         <label for="reason">Reason For Contact</label>
         <select id="reason" name="reason">
+	      <option value="interested">Interested in your services</option>
+		  <option value="change">Change of current services</option>
+		  <option value="rfp">Request for proposal</option>
           <option value="suggestion">Suggestion</option>
           <option value="comlaint">Complaint</option>
-          <option value="issue">Shipping/Billing Issue</option>
           <option value="other">Other</option>
         </select>
         
@@ -83,7 +91,7 @@
     <!-- Footer -->
     <div class="footer-holder">
       <div class="row">
-        <div class="col-sm text-center">
+        <!--<div class="col-sm text-center">
           <h4>Socials</h4>
           <ul class="social_icons">
             <li><a href="https://twitter.com/teeposeofficial?lang=en" class="hover"><i class="fab fa-twitter-square"></i><span class="sr-only">twitter</span></a></li>
@@ -104,7 +112,7 @@
           <ul class="footer_navbar">
             <li><a href="contact.html" class="hover">Contact</a></li>
           </ul>
-        </div>
+        </div>-->
       </div>
     </div>
 
