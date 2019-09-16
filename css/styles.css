@@ -565,8 +565,36 @@ label.color{
 .teammates tr {
 	background-color: #2B2B2B;
 }
-
+.teammates{
+	align-content: center;
+	margin: 0 auto;
+}
 .team-table{
 	padding: 20px;
 	display: block;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+/* additional company formation css */
+.formation-button {
+	background-color: #4CAF50; 
+	border: 1px solid green;
+	color: white; 
+	padding: 10px 24px;
+	width: 40%;
+	display: block; 
+	margin: 0 auto;
+	text-align: center;
+}
+.formation-button:hover{
+	 background-color: #10CD26;
+	color: black;
+}
+.formation-container{
+	width: 100%;
+	margin: 0 auto;
+}
+.center-formation{
+	
 }
